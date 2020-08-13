@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		130AA85C26FBF3037EC2C4A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		130AA85C26FBF3037EC2C4A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1B5461474BB3A878F03A9D2B /* Pods-HUKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUKit_Example.release.xcconfig"; path = "Target Support Files/Pods-HUKit_Example/Pods-HUKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		383FBF24ED95982282C9CF0C /* HUKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HUKit.podspec; path = ../HUKit.podspec; sourceTree = "<group>"; };
+		383FBF24ED95982282C9CF0C /* HUKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HUKit.podspec; path = ../HUKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		547E1BC5F26C37488795641F /* Pods-HUKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-HUKit_Tests/Pods-HUKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HUKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		725D5001D7482C07303EE103 /* Pods-HUKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HUKit_Tests/Pods-HUKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D3FB10269D45AD51A41C05B /* Pods-HUKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-HUKit_Example/Pods-HUKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C7E4B0E2F8EA27C24494B9F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C7E4B0E2F8EA27C24494B9F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F564CDE7BCD8CC6F1E7AE234 /* Pods_HUKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HUKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76ECF4E5F1C000A350A66FD /* Pods_HUKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HUKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				725D5001D7482C07303EE103 /* Pods-HUKit_Tests.debug.xcconfig */,
 				547E1BC5F26C37488795641F /* Pods-HUKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

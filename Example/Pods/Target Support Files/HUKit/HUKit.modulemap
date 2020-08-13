@@ -1,0 +1,6 @@
+framework module HUKit {
+  umbrella header "HUKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

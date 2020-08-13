@@ -1,0 +1,22 @@
+{
+  "name": "HUKit",
+  "version": "0.1.0",
+  "summary": "A short description of HUKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/871792412@qq.com/HUKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "871792412@qq.com": "huzhou@shein.com"
+  },
+  "source": {
+    "git": "https://github.com/871792412@qq.com/HUKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HUKit/Classes/**/*"
+}
