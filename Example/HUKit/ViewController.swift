@@ -7,12 +7,13 @@
 //
 
 import UIKit
-
+import HUKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.hu_randomColor()
     }
 
     override func didReceiveMemoryWarning() {
