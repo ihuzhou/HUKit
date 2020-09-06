@@ -28,8 +28,7 @@
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
 		AA0EAEFF24E5231000F68F77 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EAEFE24E5231000F68F77 /* ColorExtension.swift */; };
-		AAA890F824F51DEE0079E3CA /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA890F724F51DEE0079E3CA /* ArrayExtension.swift */; };
-		AAA890FA24F51E920079E3CA /* DictExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA890F924F51E920079E3CA /* DictExtension.swift */; };
+		AA10D1D325054F0500B56129 /* VCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10D1D1250548EC00B56129 /* VCExtension.swift */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BDF07562149CFB0F75C7753BCB4C00FF /* Pods-HUKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 668B2BE1A9790DB7EE796E6A2A851C6C /* Pods-HUKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -104,9 +103,8 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		AA0EAEFE24E5231000F68F77 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		AA10D1D1250548EC00B56129 /* VCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCExtension.swift; sourceTree = "<group>"; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		AAA890F724F51DEE0079E3CA /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
-		AAA890F924F51E920079E3CA /* DictExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictExtension.swift; sourceTree = "<group>"; };
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		B2DE2FCAA953B17F48BF5A59FE6701B6 /* Pods-HUKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HUKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		B2E05F15B4D35E29947A1E4C8F630B4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -311,8 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				AA0EAEFE24E5231000F68F77 /* ColorExtension.swift */,
-				AAA890F724F51DEE0079E3CA /* ArrayExtension.swift */,
-				AAA890F924F51E920079E3CA /* DictExtension.swift */,
+				AA10D1D1250548EC00B56129 /* VCExtension.swift */,
 			);
 			name = Extension;
 			path = HUKit/Classes/Extension;
@@ -567,10 +564,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAA890F824F51DEE0079E3CA /* ArrayExtension.swift in Sources */,
 				6568653ACFAE6EA6FC2BA1A9CD046B54 /* HUKit-dummy.m in Sources */,
 				AA0EAEFF24E5231000F68F77 /* ColorExtension.swift in Sources */,
-				AAA890FA24F51E920079E3CA /* DictExtension.swift in Sources */,
+				AA10D1D325054F0500B56129 /* VCExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

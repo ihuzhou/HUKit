@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension UIColor {
+public extension UIColor {
     /// 根据颜色生成指定大小的纯色图片
     /// - Parameter size: CGSize
     /// - Returns: 返回可选值UIImage

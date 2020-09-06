@@ -15,6 +15,8 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		652649080A848F70BBE5FAA2 /* Pods_HUKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F564CDE7BCD8CC6F1E7AE234 /* Pods_HUKit_Tests.framework */; };
 		9D35C1BBDBBF2BD3A967CE70 /* Pods_HUKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76ECF4E5F1C000A350A66FD /* Pods_HUKit_Example.framework */; };
+		AA10D1D52505563C00B56129 /* VCB.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10D1D42505563C00B56129 /* VCB.swift */; };
+		AA10D1D72505564500B56129 /* VCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10D1D62505564500B56129 /* VCC.swift */; };
 		AAA890F624F516140079E3CA /* ColorExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA890F424F515C80079E3CA /* ColorExtensionTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		725D5001D7482C07303EE103 /* Pods-HUKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HUKit_Tests/Pods-HUKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D3FB10269D45AD51A41C05B /* Pods-HUKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-HUKit_Example/Pods-HUKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AA10D1D42505563C00B56129 /* VCB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCB.swift; sourceTree = "<group>"; };
+		AA10D1D62505564500B56129 /* VCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCC.swift; sourceTree = "<group>"; };
 		AAA890F024F515AC0079E3CA /* HUKit_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HUKit_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		AAA890F424F515C80079E3CA /* ColorExtensionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensionTest.swift; sourceTree = "<group>"; };
 		C7E4B0E2F8EA27C24494B9F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				AA10D1D42505563C00B56129 /* VCB.swift */,
+				AA10D1D62505564500B56129 /* VCC.swift */,
 			);
 			name = "Example for HUKit";
 			path = HUKit;
@@ -355,6 +361,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA10D1D72505564500B56129 /* VCC.swift in Sources */,
+				AA10D1D52505563C00B56129 /* VCB.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

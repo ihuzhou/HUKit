@@ -14,6 +14,25 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.view.backgroundColor = UIColor.hu_randomColor()
+        testCurrentVC()
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3) {
+            let al = UIAlertController.init(title: "123", message: "222", preferredStyle: .alert)
+            al.addAction(UIAlertAction.init(title: "ok", style: .default, handler: {[weak self] (ac) in
+                self?.present(VCB.init(), animated: true
+                    , completion: nil)
+            }))
+            self.present(al, animated: true, completion: nil)
+        }
+    }
+    
+    func testCurrentVC() {
+        if #available(iOS 10.0, *) {
+            Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (tim) in
+                print(VCTool.getCurrentVC())
+            }.fire()
+        } else {
+            // Fallback on earlier versions
+        }
     }
 
     override func didReceiveMemoryWarning() {
